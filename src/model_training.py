@@ -6,6 +6,8 @@ import logging
 from sklearn.ensemble import RandomForestClassifier
 # import yaml
 
+from data_ingestion import load_params
+
 # Ensure the "logs" directory exists
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
